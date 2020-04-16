@@ -8,9 +8,7 @@ int t, n, a[17][17];
 bool vi[17][17]={0};
 char ans[17*2];
 vector<string> res;
-bool fl;
 void Pus(int m){
-    fl=1;
     string temp="";
     for(int i=0; i<m; ++i){
         temp+=ans[i];
@@ -18,7 +16,6 @@ void Pus(int m){
     res.push_back(temp);
 }
 void Print(){
-    fl=1;
     sort(res.begin(), res.end());
     for(int i=0; i<res.size(); ++i) cout<<res[i]<<" ";
     cout<<endl;
@@ -57,7 +54,6 @@ main(){
     cin>>t;
     while(t--){
         res.clear();
-        fl=0;
         cin>>n;
         for(int i=0; i<n; ++i){
             for(int j=0; j<n; ++j) cin>>a[i][j];

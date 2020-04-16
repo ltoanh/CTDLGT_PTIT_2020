@@ -14,7 +14,7 @@ const int MAX=1e+5;
 using namespace std;
 int t, n, s, p;
 int a[207];
-vi snt, Prime;
+vi snt, Prime, ans;
 vector< vi > res;
 int pri[100]={
 	2, 3, 5, 7, 11, 13, 17, 19, 23, 29,
@@ -29,34 +29,32 @@ void Snt(){
 	}
 }
 
-void Try(int i, int sum, vi ans){
-	if(sum>s) return;
-	if(s==sum && ans.size()==n){
+void Try(int i, int sum, int sl){
+	if(sum>s || sl>n) return;
+	if(s==sum && sl==n){
 		res.pb(ans);
 		return;
 	}
 	for(int j=i; j<Prime.size(); ++j){
-		if(sum+Prime[j]<=s && ans.size()<n){
-			ans.pb(Prime[j]);
-			Try(i+1, sum+Prime[j], ans);
-			ans.pop_back();
-		}
+        ans.pb(Prime[j]);
+        Try(j+1, sum+Prime[j], sl+1);
+        ans.pop_back();
 	}
 }
 
-
 main(){
 	Snt();
-//	for(int i=0; i<Prime.size(); ++i) cout<<i<<":"<<Prime[i]<<endl;
 	cin>>t;
 	while(t--){
-		res.clear();
-		cin>>s>>p>>n;
-		vi ans;
+		res.clear(); ans.clear();
+		cin>>n>>p>>s;
 		int vt=find(Prime.begin(), Prime.end(), p)-Prime.begin();
-		cout<<vt<<endl;
-		Try(vt+1, 0, ans);
+		Try(vt, 0, 0);
+		cout<<res.size()<<endl;
+		for(int i=0; i<res.size(); ++i){
+            for(int j=0; j<res[i].size(); ++j) cout<<res[i][j]<<" ";
+            cout<<endl;
+		}
 	}
-	cout<<res.size()<<endl;
 }
 

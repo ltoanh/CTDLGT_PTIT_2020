@@ -1,7 +1,7 @@
 //N=(c0+1)(c1+1)(c2+1)...(cm+1)
 //num=p0^c0*p1^c1*...*pm^cm
 //Fopt=min(num)
-//wr
+
 #include<iostream>
 #include<algorithm>
 
@@ -11,7 +11,7 @@ using namespace std;
 
 int t;
 ll Fopt, N;
-int p[15]={2,3,5,7,9,11,13,17,19, 23};
+int p[15]={2,3,5,7,11,13,17,19,23,29};
 
 void Try(ll i, ll ans, ll x, ll n){
     if(i>9 || ans>Fopt || n>N) return;
