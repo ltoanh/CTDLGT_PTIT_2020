@@ -21,6 +21,7 @@ ll fibo(int n){
 	F[n]=(fibo((n+1)/2)*fibo(n/2)+fibo((n-1)/2)*fibo((n-2)/2))%mod;
 	return F[n];
 }
+
 main(){
 	cin>>t;
 	while(t--){

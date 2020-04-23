@@ -20,9 +20,13 @@ main(){
 	while(t--){
 		priority_queue<int, vector<int>, greater<int> > q;
 		cin>>n>>m>>k;
-		for(int i=0; i<n+m; ++i){
+		for(int i=0; i<n; ++i){
 			int x; cin>>x;
 			q.push(x);
+		}
+		for(int j=0; j<m; ++j){
+            int x; cin>>x;
+            q.push(x);
 		}
 		int res;
 		while(!q.empty() && k>0){

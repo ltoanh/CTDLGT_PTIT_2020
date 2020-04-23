@@ -1,4 +1,3 @@
-//wr
 #include<bits/stdc++.h>
 
 #define ll long long
@@ -15,13 +14,9 @@ using namespace std;
 int t, n, s, m;
 
 int solve(){
-	if(n<m) return -1;
-	int soNgay=0, i=1;
-	while(i<1000 && soNgay<s){
-		soNgay=n*i/m;
-		i++;
-	}
-	return i-1;
+	if(n<m || (n==m && s>=7) || 6*n<7*m) return -1;
+	int ans=s*(int)m/n+((s*m)%n?1:0);
+	return ans;
 }
 main(){
 	cin>>t;
