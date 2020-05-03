@@ -38,5 +38,7 @@ main(){
     cin>>N>>K;
     Try(0);
     cout<<result.size()<<endl;
-    for(int i=0; i<result.size(); ++i) cout<<result[i]<<endl;
+    for(int i=0; i<result.size(); ++i){
+        cout<<result[i]<<endl;
+    }
 }
