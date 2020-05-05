@@ -3495,3 +3495,647 @@
 200505 110937.037|INFO|Thread-7|run|send(Serializable)
 200505 110937.913|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
 200505 110940.934|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 121928.789|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to E:\Code\BT tren lp\DaA2020\pc2Client\bin\logs directory.
+200505 121928.789|INFO|AWT-EventQueue-0|info|
+200505 121928.789|INFO|AWT-EventQueue-0|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Windows 10 10.0 (x86) 
+200505 121928.789|INFO|AWT-EventQueue-0|info|Login: 331 (aka team331)
+200505 121928.790|INFO|AWT-EventQueue-0|startLog|Working directory is E:\Code\BT tren lp\DaA2020\pc2Client\bin
+200505 121928.791|INFO|AWT-EventQueue-0|startLog|Process id is 7824@DESKTOP-V75864E
+200505 121928.791|INFO|AWT-EventQueue-0|info|Contacting server at 203.162.10.117:50002 as TEAM331 @ site 0
+200505 121928.792|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM331 @ site 0
+200505 121928.799|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 121928.800|INFO|Thread-4|run|send(Serializable)
+200505 121928.801|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 121928.801|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+200505 121929.033|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 121929.107|INFO|Thread-5|info| receiveObject(S) start got Packet[LOGIN_SUCCESS] #39482 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 121929.107|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #39482, o#39482 ) recieveObject
+200505 121929.107|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 121929.107|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 121929.107|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@49e32c
+200505 121929.108|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@8e1395
+200505 121929.108|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 121929.108|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@b1885c
+200505 121929.108|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@1b319ae
+200505 121929.108|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@dadd37
+200505 121929.108|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@406402
+200505 121929.108|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@c3fe3e
+200505 121929.108|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@19ce6e1
+200505 121929.108|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@1f9bb80
+200505 121929.109|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@92ae09
+200505 121929.109|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@1c792ab
+200505 121929.109|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 121929.109|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@1d2dbdc
+200505 121929.109|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@1355e5d
+200505 121929.109|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@465954
+200505 121929.109|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@14bd0fd
+200505 121929.109|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@cfd33
+200505 121929.110|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 121929.121|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588655968993,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=5,HOUR_OF_DAY=5,MINUTE=19,SECOND=28,MILLISECOND=993,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 121929.122|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@17e9f99
+200505 121929.122|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@14eefdb
+200505 121929.122|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 121929.122|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 121929.122|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@d0977
+200505 121929.122|INFO|Thread-5|info|handlePacket start Packet[LOGIN_SUCCESS] #39482 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 121929.122|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #39482, o#39482 ) handlePacket
+200505 121929.123|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 121929.123|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 121929.124|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@49e32c
+200505 121929.125|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@8e1395
+200505 121929.125|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 121929.125|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@b1885c
+200505 121929.125|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@1b319ae
+200505 121929.125|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@dadd37
+200505 121929.126|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@406402
+200505 121929.126|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@c3fe3e
+200505 121929.126|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@19ce6e1
+200505 121929.126|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@1f9bb80
+200505 121929.126|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@92ae09
+200505 121929.126|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@1c792ab
+200505 121929.127|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 121929.127|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@1d2dbdc
+200505 121929.128|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@1355e5d
+200505 121929.128|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@465954
+200505 121929.128|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@14bd0fd
+200505 121929.130|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@cfd33
+200505 121929.130|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 121929.130|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588655968993,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=5,HOUR_OF_DAY=5,MINUTE=19,SECOND=28,MILLISECOND=993,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 121929.130|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@17e9f99
+200505 121929.130|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@14eefdb
+200505 121929.131|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 121929.131|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 121929.131|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@d0977
+200505 122019.452|INFO|Thread-7|run|send(Serializable)
+200505 122020.366|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 122023.854|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 123641.649|INFO|Thread-10|run|send(Serializable)
+200505 123701.221|INFO|Thread-1|connectionDropped|connectionDropped(ConnectionHandlerID myConnectionID) 
+200505 123717.038|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to E:\Code\BT tren lp\DaA2020\pc2Client\bin\logs directory.
+200505 123717.038|INFO|AWT-EventQueue-0|info|
+200505 123717.038|INFO|AWT-EventQueue-0|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Windows 10 10.0 (x86) 
+200505 123717.038|INFO|AWT-EventQueue-0|info|Login: 331 (aka team331)
+200505 123717.038|INFO|AWT-EventQueue-0|startLog|Working directory is E:\Code\BT tren lp\DaA2020\pc2Client\bin
+200505 123717.039|INFO|AWT-EventQueue-0|startLog|Process id is 11480@DESKTOP-V75864E
+200505 123717.039|INFO|AWT-EventQueue-0|info|Contacting server at 203.162.10.117:50002 as TEAM331 @ site 0
+200505 123717.039|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM331 @ site 0
+200505 123717.047|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 123717.049|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 123717.049|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+200505 123717.055|INFO|Thread-4|run|send(Serializable)
+200505 123717.288|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 123717.374|INFO|Thread-5|info| receiveObject(S) start got Packet[LOGIN_SUCCESS] #40032 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 123717.374|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #40032, o#40032 ) recieveObject
+200505 123717.374|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 123717.374|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 123717.375|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@19fddb8
+200505 123717.375|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@1583afb
+200505 123717.375|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 123717.375|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@167b6c8
+200505 123717.375|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@6530c0
+200505 123717.375|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@1205fa9
+200505 123717.375|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@1293494
+200505 123717.375|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@186054f
+200505 123717.375|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@4acf8f
+200505 123717.376|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@1a419f8
+200505 123717.376|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@1d71a4c
+200505 123717.376|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@82ce04
+200505 123717.376|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 123717.376|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@4556c
+200505 123717.376|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@19aeb0d
+200505 123717.376|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@c86c8
+200505 123717.376|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@3a9aa3
+200505 123717.376|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@d518fd
+200505 123717.377|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 123717.378|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588657037272,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=5,HOUR_OF_DAY=5,MINUTE=37,SECOND=17,MILLISECOND=272,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 123717.378|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@574969
+200505 123717.378|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@dad6d
+200505 123717.378|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 123717.378|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 123717.378|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@f6d44d
+200505 123717.378|INFO|Thread-5|info|handlePacket start Packet[LOGIN_SUCCESS] #40032 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 123717.380|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #40032, o#40032 ) handlePacket
+200505 123717.380|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 123717.381|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 123717.381|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@19fddb8
+200505 123717.381|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@1583afb
+200505 123717.381|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 123717.381|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@167b6c8
+200505 123717.381|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@6530c0
+200505 123717.381|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@1205fa9
+200505 123717.381|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@1293494
+200505 123717.381|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@186054f
+200505 123717.382|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@4acf8f
+200505 123717.382|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@1a419f8
+200505 123717.382|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@1d71a4c
+200505 123717.382|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@82ce04
+200505 123717.382|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 123717.382|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@4556c
+200505 123717.383|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@19aeb0d
+200505 123717.383|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@c86c8
+200505 123717.383|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@3a9aa3
+200505 123717.383|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@d518fd
+200505 123717.383|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 123717.383|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588657037272,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=5,HOUR_OF_DAY=5,MINUTE=37,SECOND=17,MILLISECOND=272,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 123717.383|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@574969
+200505 123717.384|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@dad6d
+200505 123717.384|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 123717.384|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 123717.384|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@f6d44d
+200505 123737.396|INFO|Thread-7|run|send(Serializable)
+200505 123738.277|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 123743.771|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 124351.669|INFO|Thread-10|run|send(Serializable)
+200505 124352.678|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 124355.763|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 124424.693|INFO|Thread-13|run|send(Serializable)
+200505 124425.676|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 124429.110|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 125220.854|INFO|Thread-16|run|send(Serializable)
+200505 125240.352|INFO|Thread-1|connectionDropped|connectionDropped(ConnectionHandlerID myConnectionID) 
+200505 125253.095|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to E:\Code\BT tren lp\DaA2020\pc2Client\bin\logs directory.
+200505 125253.095|INFO|AWT-EventQueue-0|info|
+200505 125253.095|INFO|AWT-EventQueue-0|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Windows 10 10.0 (x86) 
+200505 125253.096|INFO|AWT-EventQueue-0|info|Login: 331 (aka team331)
+200505 125253.096|INFO|AWT-EventQueue-0|startLog|Working directory is E:\Code\BT tren lp\DaA2020\pc2Client\bin
+200505 125253.097|INFO|AWT-EventQueue-0|startLog|Process id is 4656@DESKTOP-V75864E
+200505 125253.097|INFO|AWT-EventQueue-0|info|Contacting server at 203.162.10.117:50002 as TEAM331 @ site 0
+200505 125253.097|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM331 @ site 0
+200505 125253.104|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 125253.107|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 125253.107|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+200505 125253.107|INFO|Thread-4|run|send(Serializable)
+200505 125253.342|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 125253.425|INFO|Thread-5|info| receiveObject(S) start got Packet[LOGIN_SUCCESS] #40520 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 125253.425|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #40520, o#40520 ) recieveObject
+200505 125253.425|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 125253.425|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 125253.425|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@15e48b1
+200505 125253.425|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@199a0aa
+200505 125253.425|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 125253.425|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@1a623c1
+200505 125253.426|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@a4aa91
+200505 125253.426|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@1fe7e74
+200505 125253.426|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@1921591
+200505 125253.426|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@1229fc9
+200505 125253.426|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@8b55de
+200505 125253.426|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@4895e5
+200505 125253.426|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@12b3ca0
+200505 125253.426|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@26365b
+200505 125253.426|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 125253.427|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@c5ade4
+200505 125253.427|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@34f4a4
+200505 125253.427|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@ac07fe
+200505 125253.427|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@1d7765e
+200505 125253.428|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@4847cd
+200505 125253.428|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 125253.428|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588657973339,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=5,HOUR_OF_DAY=5,MINUTE=52,SECOND=53,MILLISECOND=339,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 125253.428|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@17012f4
+200505 125253.428|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@1db7393
+200505 125253.428|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 125253.428|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 125253.429|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@1b29230
+200505 125253.429|INFO|Thread-5|info|handlePacket start Packet[LOGIN_SUCCESS] #40520 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 125253.429|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #40520, o#40520 ) handlePacket
+200505 125253.429|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 125253.429|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 125253.429|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@15e48b1
+200505 125253.429|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@199a0aa
+200505 125253.429|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 125253.430|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@1a623c1
+200505 125253.430|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@a4aa91
+200505 125253.430|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@1fe7e74
+200505 125253.430|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@1921591
+200505 125253.430|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@1229fc9
+200505 125253.430|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@8b55de
+200505 125253.430|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@4895e5
+200505 125253.430|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@12b3ca0
+200505 125253.431|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@26365b
+200505 125253.431|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 125253.431|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@c5ade4
+200505 125253.431|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@34f4a4
+200505 125253.431|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@ac07fe
+200505 125253.431|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@1d7765e
+200505 125253.431|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@4847cd
+200505 125253.431|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 125253.431|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588657973339,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=5,HOUR_OF_DAY=5,MINUTE=52,SECOND=53,MILLISECOND=339,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 125253.432|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@17012f4
+200505 125253.432|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@1db7393
+200505 125253.432|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 125253.432|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 125253.432|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@1b29230
+200505 125317.650|INFO|Thread-7|run|send(Serializable)
+200505 125318.650|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 125324.086|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 132407.255|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to E:\Code\BT tren lp\DaA2020\pc2Client\bin\logs directory.
+200505 132407.255|INFO|AWT-EventQueue-0|info|
+200505 132407.255|INFO|AWT-EventQueue-0|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Windows 10 10.0 (x86) 
+200505 132407.255|INFO|AWT-EventQueue-0|info|Login: 331 (aka team331)
+200505 132407.255|INFO|AWT-EventQueue-0|startLog|Working directory is E:\Code\BT tren lp\DaA2020\pc2Client\bin
+200505 132407.256|INFO|AWT-EventQueue-0|startLog|Process id is 8636@DESKTOP-V75864E
+200505 132407.256|INFO|AWT-EventQueue-0|info|Contacting server at 203.162.10.117:50002 as TEAM331 @ site 0
+200505 132407.256|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM331 @ site 0
+200505 132407.264|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 132407.265|INFO|Thread-4|run|send(Serializable)
+200505 132407.266|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 132407.266|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+200505 132407.547|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 132407.628|INFO|Thread-5|info| receiveObject(S) start got Packet[LOGIN_SUCCESS] #41422 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 132407.630|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #41422, o#41422 ) recieveObject
+200505 132407.630|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 132407.632|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 132407.633|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@49e32c
+200505 132407.633|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@8e1395
+200505 132407.633|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 132407.633|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@b1885c
+200505 132407.633|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@1b319ae
+200505 132407.637|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@dadd37
+200505 132407.638|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@406402
+200505 132407.638|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@c3fe3e
+200505 132407.639|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@19ce6e1
+200505 132407.644|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@1f9bb80
+200505 132407.644|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@92ae09
+200505 132407.644|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@1c792ab
+200505 132407.644|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 132407.644|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@1d2dbdc
+200505 132407.644|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@1355e5d
+200505 132407.645|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@465954
+200505 132407.645|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@14bd0fd
+200505 132407.645|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@cfd33
+200505 132407.645|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 132407.645|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588659847566,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=6,HOUR_OF_DAY=6,MINUTE=24,SECOND=7,MILLISECOND=566,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 132407.646|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@17e9f99
+200505 132407.646|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@14eefdb
+200505 132407.646|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 132407.646|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 132407.646|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@d0977
+200505 132407.646|INFO|Thread-5|info|handlePacket start Packet[LOGIN_SUCCESS] #41422 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 132407.646|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #41422, o#41422 ) handlePacket
+200505 132407.646|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 132407.646|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 132407.647|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@49e32c
+200505 132407.647|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@8e1395
+200505 132407.647|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 132407.647|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@b1885c
+200505 132407.647|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@1b319ae
+200505 132407.647|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@dadd37
+200505 132407.647|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@406402
+200505 132407.647|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@c3fe3e
+200505 132407.647|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@19ce6e1
+200505 132407.647|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@1f9bb80
+200505 132407.647|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@92ae09
+200505 132407.648|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@1c792ab
+200505 132407.648|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 132407.648|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@1d2dbdc
+200505 132407.648|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@1355e5d
+200505 132407.649|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@465954
+200505 132407.649|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@14bd0fd
+200505 132407.649|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@cfd33
+200505 132407.649|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 132407.649|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588659847566,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=6,HOUR_OF_DAY=6,MINUTE=24,SECOND=7,MILLISECOND=566,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 132407.649|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@17e9f99
+200505 132407.650|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@14eefdb
+200505 132407.650|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 132407.650|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 132407.650|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@d0977
+200505 132600.138|INFO|Thread-7|run|send(Serializable)
+200505 132601.536|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 132605.465|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 133848.437|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to E:\Code\BT tren lp\DaA2020\pc2Client\bin\logs directory.
+200505 133848.437|INFO|AWT-EventQueue-0|info|
+200505 133848.438|INFO|AWT-EventQueue-0|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Windows 10 10.0 (x86) 
+200505 133848.438|INFO|AWT-EventQueue-0|info|Login: 331 (aka team331)
+200505 133848.438|INFO|AWT-EventQueue-0|startLog|Working directory is E:\Code\BT tren lp\DaA2020\pc2Client\bin
+200505 133848.438|INFO|AWT-EventQueue-0|startLog|Process id is 10476@DESKTOP-V75864E
+200505 133848.439|INFO|AWT-EventQueue-0|info|Contacting server at 203.162.10.117:50002 as TEAM331 @ site 0
+200505 133848.439|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM331 @ site 0
+200505 133848.448|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 133848.449|INFO|Thread-4|run|send(Serializable)
+200505 133848.450|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 133848.450|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+200505 133848.935|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 133849.025|INFO|Thread-5|info| receiveObject(S) start got Packet[LOGIN_SUCCESS] #41753 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 133849.025|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #41753, o#41753 ) recieveObject
+200505 133849.025|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 133849.025|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 133849.025|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@1a47896
+200505 133849.025|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@16381d2
+200505 133849.025|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 133849.027|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@15c13e6
+200505 133849.029|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@5e8be9
+200505 133849.030|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@243d7c
+200505 133849.030|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@1e25c3b
+200505 133849.030|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@72b402
+200505 133849.030|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@7174a6
+200505 133849.030|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@17364c9
+200505 133849.030|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@25f818
+200505 133849.030|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@1769f7a
+200505 133849.030|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 133849.033|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@3f0e76
+200505 133849.033|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@2a65d4
+200505 133849.033|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@16ea2b1
+200505 133849.033|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@586ee9
+200505 133849.033|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@7e852a
+200505 133849.033|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 133849.034|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588660728746,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=6,HOUR_OF_DAY=6,MINUTE=38,SECOND=48,MILLISECOND=746,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 133849.034|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@1fb5074
+200505 133849.034|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@1860590
+200505 133849.034|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 133849.035|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 133849.035|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@a208ef
+200505 133849.035|INFO|Thread-5|info|handlePacket start Packet[LOGIN_SUCCESS] #41753 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 133849.035|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #41753, o#41753 ) handlePacket
+200505 133849.036|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 133849.036|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 133849.036|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@1a47896
+200505 133849.036|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@16381d2
+200505 133849.036|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 133849.037|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@15c13e6
+200505 133849.046|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@5e8be9
+200505 133849.047|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@243d7c
+200505 133849.048|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@1e25c3b
+200505 133849.048|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@72b402
+200505 133849.054|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@7174a6
+200505 133849.055|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@17364c9
+200505 133849.055|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@25f818
+200505 133849.055|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@1769f7a
+200505 133849.055|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 133849.055|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@3f0e76
+200505 133849.057|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@2a65d4
+200505 133849.060|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@16ea2b1
+200505 133849.060|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@586ee9
+200505 133849.060|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@7e852a
+200505 133849.060|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 133849.066|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588660728746,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=6,HOUR_OF_DAY=6,MINUTE=38,SECOND=48,MILLISECOND=746,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 133849.066|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@1fb5074
+200505 133849.066|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@1860590
+200505 133849.066|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 133849.067|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 133849.067|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@a208ef
+200505 133939.137|INFO|Thread-7|run|send(Serializable)
+200505 133940.158|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 133943.818|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 134748.921|INFO|Thread-10|run|send(Serializable)
+200505 134750.060|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 134757.455|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 135813.917|INFO|Thread-13|run|send(Serializable)
+200505 135833.522|INFO|Thread-1|connectionDropped|connectionDropped(ConnectionHandlerID myConnectionID) 
+200505 135845.613|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to E:\Code\BT tren lp\DaA2020\pc2Client\bin\logs directory.
+200505 135845.613|INFO|AWT-EventQueue-0|info|
+200505 135845.613|INFO|AWT-EventQueue-0|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Windows 10 10.0 (x86) 
+200505 135845.613|INFO|AWT-EventQueue-0|info|Login: 331 (aka team331)
+200505 135845.614|INFO|AWT-EventQueue-0|startLog|Working directory is E:\Code\BT tren lp\DaA2020\pc2Client\bin
+200505 135845.614|INFO|AWT-EventQueue-0|startLog|Process id is 7956@DESKTOP-V75864E
+200505 135845.615|INFO|AWT-EventQueue-0|info|Contacting server at 203.162.10.117:50002 as TEAM331 @ site 0
+200505 135845.615|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM331 @ site 0
+200505 135845.623|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 135845.624|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 135845.624|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+200505 135845.626|INFO|Thread-4|run|send(Serializable)
+200505 135845.883|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 135845.973|INFO|Thread-5|info| receiveObject(S) start got Packet[LOGIN_SUCCESS] #42233 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 135845.973|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #42233, o#42233 ) recieveObject
+200505 135845.973|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 135845.973|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 135845.974|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@89ba7e
+200505 135845.974|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@4e51df
+200505 135845.974|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 135845.974|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@71d10e
+200505 135845.974|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@1735be4
+200505 135845.974|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@ca47fe
+200505 135845.974|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@583ed1
+200505 135845.974|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@b7c75
+200505 135845.975|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@15ca4ab
+200505 135845.975|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@179f6c9
+200505 135845.975|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@c6e481
+200505 135845.975|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@10fd038
+200505 135845.975|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 135845.975|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@112594e
+200505 135845.975|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@143289b
+200505 135845.975|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@d6359e
+200505 135845.976|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@147b62c
+200505 135845.976|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@85923
+200505 135845.976|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 135845.976|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588661925918,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=6,HOUR_OF_DAY=6,MINUTE=58,SECOND=45,MILLISECOND=918,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 135845.976|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@8da2c9
+200505 135845.976|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@1aa0143
+200505 135845.976|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 135845.976|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 135845.977|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@19236cc
+200505 135845.977|INFO|Thread-5|info|handlePacket start Packet[LOGIN_SUCCESS] #42233 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 135845.977|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #42233, o#42233 ) handlePacket
+200505 135845.977|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 135845.977|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 135845.977|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@89ba7e
+200505 135845.977|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@4e51df
+200505 135845.977|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 135845.977|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@71d10e
+200505 135845.978|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@1735be4
+200505 135845.978|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@ca47fe
+200505 135845.978|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@583ed1
+200505 135845.978|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@b7c75
+200505 135845.978|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@15ca4ab
+200505 135845.978|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@179f6c9
+200505 135845.978|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@c6e481
+200505 135845.978|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@10fd038
+200505 135845.979|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 135845.979|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@112594e
+200505 135845.979|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@143289b
+200505 135845.979|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@d6359e
+200505 135845.979|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@147b62c
+200505 135845.980|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@85923
+200505 135845.980|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 135845.980|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588661925918,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=6,HOUR_OF_DAY=6,MINUTE=58,SECOND=45,MILLISECOND=918,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 135845.980|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@8da2c9
+200505 135845.980|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@1aa0143
+200505 135845.980|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 135845.980|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 135845.981|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@19236cc
+200505 135902.234|INFO|Thread-7|run|send(Serializable)
+200505 135905.310|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 135909.888|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 140236.211|INFO|Thread-10|run|send(Serializable)
+200505 140237.162|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 140249.045|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 143210.206|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to E:\Code\BT tren lp\DaA2020\pc2Client\bin\logs directory.
+200505 143210.206|INFO|AWT-EventQueue-0|info|
+200505 143210.207|INFO|AWT-EventQueue-0|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Windows 10 10.0 (x86) 
+200505 143210.207|INFO|AWT-EventQueue-0|info|Login: 331 (aka team331)
+200505 143210.207|INFO|AWT-EventQueue-0|startLog|Working directory is E:\Code\BT tren lp\DaA2020\pc2Client\bin
+200505 143210.208|INFO|AWT-EventQueue-0|startLog|Process id is 4476@DESKTOP-V75864E
+200505 143210.208|INFO|AWT-EventQueue-0|info|Contacting server at 203.162.10.117:50002 as TEAM331 @ site 0
+200505 143210.208|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM331 @ site 0
+200505 143210.216|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 143210.217|INFO|Thread-4|run|send(Serializable)
+200505 143210.218|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 143210.218|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+200505 143210.517|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 143210.590|INFO|Thread-5|info| receiveObject(S) start got Packet[LOGIN_SUCCESS] #43352 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 143210.590|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #43352, o#43352 ) recieveObject
+200505 143210.590|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 143210.590|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 143210.591|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@5dda03
+200505 143210.591|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@9a39f8
+200505 143210.591|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 143210.591|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@a5b173
+200505 143210.591|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@1a733c3
+200505 143210.591|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@1287876
+200505 143210.591|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@ced052
+200505 143210.592|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@1abc551
+200505 143210.592|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@188cc8c
+200505 143210.592|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@101f743
+200505 143210.592|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@1a9ef71
+200505 143210.592|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@af2bd8
+200505 143210.592|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 143210.592|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@1c673ad
+200505 143210.592|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@1d32ff9
+200505 143210.592|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@10b87d5
+200505 143210.592|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@418187
+200505 143210.592|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@6eca39
+200505 143210.592|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 143210.593|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588663930557,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=7,HOUR_OF_DAY=7,MINUTE=32,SECOND=10,MILLISECOND=557,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 143210.593|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@b284aa
+200505 143210.593|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@13895c6
+200505 143210.593|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 143210.593|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 143210.593|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@1217d9f
+200505 143210.593|INFO|Thread-5|info|handlePacket start Packet[LOGIN_SUCCESS] #43352 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 143210.595|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #43352, o#43352 ) handlePacket
+200505 143210.595|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 143210.595|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 143210.595|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@5dda03
+200505 143210.595|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@9a39f8
+200505 143210.595|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 143210.596|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@a5b173
+200505 143210.596|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@1a733c3
+200505 143210.596|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@1287876
+200505 143210.596|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@ced052
+200505 143210.596|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@1abc551
+200505 143210.596|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@188cc8c
+200505 143210.596|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@101f743
+200505 143210.597|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@1a9ef71
+200505 143210.597|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@af2bd8
+200505 143210.597|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 143210.597|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@1c673ad
+200505 143210.597|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@1d32ff9
+200505 143210.597|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@10b87d5
+200505 143210.597|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@418187
+200505 143210.597|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@6eca39
+200505 143210.598|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 143210.598|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588663930557,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=7,HOUR_OF_DAY=7,MINUTE=32,SECOND=10,MILLISECOND=557,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 143210.598|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@b284aa
+200505 143210.598|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@13895c6
+200505 143210.598|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 143210.598|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 143210.599|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@1217d9f
+200505 143225.558|INFO|Thread-7|run|send(Serializable)
+200505 143226.548|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 143230.003|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 144205.098|INFO|Thread-10|run|send(Serializable)
+200505 144224.724|INFO|Thread-1|connectionDropped|connectionDropped(ConnectionHandlerID myConnectionID) 
+200505 144235.079|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to E:\Code\BT tren lp\DaA2020\pc2Client\bin\logs directory.
+200505 144235.079|INFO|AWT-EventQueue-0|info|
+200505 144235.079|INFO|AWT-EventQueue-0|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Windows 10 10.0 (x86) 
+200505 144235.079|INFO|AWT-EventQueue-0|info|Login: 331 (aka team331)
+200505 144235.079|INFO|AWT-EventQueue-0|startLog|Working directory is E:\Code\BT tren lp\DaA2020\pc2Client\bin
+200505 144235.080|INFO|AWT-EventQueue-0|startLog|Process id is 11836@DESKTOP-V75864E
+200505 144235.080|INFO|AWT-EventQueue-0|info|Contacting server at 203.162.10.117:50002 as TEAM331 @ site 0
+200505 144235.081|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM331 @ site 0
+200505 144235.088|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 144235.089|INFO|Thread-4|run|send(Serializable)
+200505 144235.090|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 144235.090|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+200505 144235.328|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 144235.408|INFO|Thread-5|info| receiveObject(S) start got Packet[LOGIN_SUCCESS] #43588 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 144235.408|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #43588, o#43588 ) recieveObject
+200505 144235.408|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 144235.408|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 144235.409|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@d8152c
+200505 144235.409|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@1ff947
+200505 144235.409|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 144235.409|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@207e5c
+200505 144235.409|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@122f37c
+200505 144235.409|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@103fcc1
+200505 144235.410|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@37e9a7
+200505 144235.410|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@1fcb8a3
+200505 144235.410|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@10d0c33
+200505 144235.410|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@1f80ae7
+200505 144235.410|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@d3b46e
+200505 144235.410|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@f832b7
+200505 144235.410|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 144235.410|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@143d78f
+200505 144235.410|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@834d32
+200505 144235.411|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@190f308
+200505 144235.411|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@d012c7
+200505 144235.411|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@10a41bd
+200505 144235.411|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 144235.411|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588664555410,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=7,HOUR_OF_DAY=7,MINUTE=42,SECOND=35,MILLISECOND=410,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 144235.411|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@1ae71b3
+200505 144235.411|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@116c43d
+200505 144235.411|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 144235.412|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 144235.412|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@1cab0f2
+200505 144235.412|INFO|Thread-5|info|handlePacket start Packet[LOGIN_SUCCESS] #43588 SERVER0 @ site 1 -> TEAM331 @ site 1
+200505 144235.412|INFO|Thread-5|dumpPacket|Packet LOGIN_SUCCESS (Seq #43588, o#43588 ) handlePacket
+200505 144235.412|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 144235.412|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 1
+200505 144235.412|INFO|Thread-5|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@d8152c
+200505 144235.413|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@1ff947
+200505 144235.413|INFO|Thread-5|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+200505 144235.413|INFO|Thread-5|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@207e5c
+200505 144235.413|INFO|Thread-5|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@122f37c
+200505 144235.413|INFO|Thread-5|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@103fcc1
+200505 144235.413|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@37e9a7
+200505 144235.413|INFO|Thread-5|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@1fcb8a3
+200505 144235.413|INFO|Thread-5|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@10d0c33
+200505 144235.413|INFO|Thread-5|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@1f80ae7
+200505 144235.414|INFO|Thread-5|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@d3b46e
+200505 144235.414|INFO|Thread-5|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@f832b7
+200505 144235.414|INFO|Thread-5|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Default-4081576452950433553
+200505 144235.414|INFO|Thread-5|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@143d78f
+200505 144235.414|INFO|Thread-5|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@834d32
+200505 144235.414|INFO|Thread-5|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@190f308
+200505 144235.414|INFO|Thread-5|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@d012c7
+200505 144235.414|INFO|Thread-5|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@10a41bd
+200505 144235.414|INFO|Thread-5|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200505 144235.414|INFO|Thread-5|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1588664555410,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=4,WEEK_OF_YEAR=19,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=126,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=7,HOUR_OF_DAY=7,MINUTE=42,SECOND=35,MILLISECOND=410,ZONE_OFFSET=0,DST_OFFSET=0]
+200505 144235.415|INFO|Thread-5|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@1ae71b3
+200505 144235.415|INFO|Thread-5|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@116c43d
+200505 144235.415|INFO|Thread-5|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Default--8373906412947302445
+200505 144235.415|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM331 @ site 1
+200505 144235.415|INFO|Thread-5|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@1cab0f2
+200505 144250.155|INFO|Thread-7|run|send(Serializable)
+200505 144251.247|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 144253.680|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 144521.575|INFO|Thread-10|run|send(Serializable)
+200505 144522.555|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 144525.270|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 145104.874|INFO|Thread-13|run|send(Serializable)
+200505 145105.857|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 145108.366|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 150535.570|INFO|Thread-16|run|send(Serializable)
+200505 150555.222|INFO|Thread-1|connectionDropped|connectionDropped(ConnectionHandlerID myConnectionID) 
+200505 150646.694|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to E:\Code\BT tren lp\DaA2020\pc2Client\bin\logs directory.
+200505 150646.694|INFO|AWT-EventQueue-0|info|
+200505 150646.694|INFO|AWT-EventQueue-0|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Windows 10 10.0 (x86) 
+200505 150646.694|INFO|AWT-EventQueue-0|info|Login: 331 (aka team331)
+200505 150646.694|INFO|AWT-EventQueue-0|startLog|Working directory is E:\Code\BT tren lp\DaA2020\pc2Client\bin
+200505 150646.695|INFO|AWT-EventQueue-0|startLog|Process id is 3104@DESKTOP-V75864E
+200505 150646.695|INFO|AWT-EventQueue-0|info|Contacting server at 203.162.10.117:50002 as TEAM331 @ site 0
+200505 150646.695|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM331 @ site 0
+200505 150646.702|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 150646.703|INFO|Thread-4|run|send(Serializable)
+200505 150646.704|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #1 TEAM331 @ site 0 -> SERVER0 @ site 0
+200505 150646.705|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+200505 150646.924|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200505 150646.927|INFO|Thread-5|info| receiveObject(S) start got Packet[LOGIN_FAILED] #44148 SERVER0 @ site 1 -> TEAM331 @ site 0
+200505 150646.928|INFO|Thread-5|dumpPacket|Packet LOGIN_FAILED (Seq #44148, o#44148 ) recieveObject
+200505 150646.928|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 150646.928|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 0
+200505 150646.928|INFO|Thread-5|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+200505 150646.928|INFO|Thread-5|info|handlePacket start Packet[LOGIN_FAILED] #44148 SERVER0 @ site 1 -> TEAM331 @ site 0
+200505 150646.928|INFO|Thread-5|dumpPacket|Packet LOGIN_FAILED (Seq #44148, o#44148 ) handlePacket
+200505 150646.929|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-CNPM @ 10.170.100.147) (Contest Id: Default--8373906412947302445)
+200505 150646.929|INFO|Thread-5|dumpPacket|    To: TEAM331 @ site 0
+200505 150646.929|INFO|Thread-5|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+200505 150650.088|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_FAILED] #44148 SERVER0 @ site 1 -> TEAM331 @ site 0
