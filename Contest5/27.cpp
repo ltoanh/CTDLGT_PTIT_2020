@@ -26,7 +26,7 @@ main(){
 		for(int i=1; i<=n; ++i){
 			for(int j=1; j<=v; ++j){
 				f[i][j] = f[i-1][j];
-				if(j>=a[i]) f[i][j] = max(f[i][j], f[i-1][j-a[i]] +c[i]);
+				if(j>=a[i]) f[i][j] = max(f[i][j], f[i-1][j-a[i]] + c[i]);
 			}
 		}
 		cout<<f[n][v]<<endl;

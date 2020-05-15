@@ -22,6 +22,7 @@ main(){
 		s = ' ' + s;
 		vector< vector<bool> > f(1007, vector<bool> (1007,true));
 		int n=s.size();
+		int Fopt = 1;
 		for(int k=1; k<=n-1; ++k){
 			for(int i=1; i<=n-k; ++i){
 				int j=i+k;
@@ -29,12 +30,7 @@ main(){
 				if(s[i]==s[j]){
 					f[i][j] = f[i+1][j-1];
 				}
-			}
-		}
-		int Fopt = 1;
-		for(int i=1; i<n; ++i){
-			for(int j=i+1; j<=n; ++j){
-				if(f[i][j] && j-i+1<=j) Fopt=max(Fopt, j-i+1); 
+				if(f[i][j]) Fopt = max(Fopt, j-i+1);
 			}
 		}
 		cout<<Fopt<<endl;
