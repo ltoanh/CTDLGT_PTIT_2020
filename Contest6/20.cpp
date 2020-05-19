@@ -14,21 +14,20 @@ const int mod = 1e9 + 7;
 using namespace std;
 
 int t, n, k;
+int a[MAX];
 
 main(){
     cin>>t;
     while(t--){
         cin>>n>>k;
-        vi a;
         for(int i = 0; i < n; ++i){
-            int x; cin>>x;
-            a.pb(x);
+            cin>>a[i];
         }
-        sort(a.begin(), a.end());
+        sort(a, a+n);
         ll res = 0;
         for(int i = 0; i < n - 1; ++i){
-            int ans = lower_bound(a.begin() + i, a.end(), a[i] + k) - a.begin();
-            res +=(ll) ans - 1 - i;
+            int ans = lower_bound(a+i, a+n, a[i] + k) - a;
+            res += ans - 1 - i;
         }
         cout<<res<<endl;
     }

@@ -75,3 +75,27 @@
 200505 151227.987|INFO|Thread-12|run|send(Serializable)
 200505 151229.127|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
 200505 151234.717|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200517 185004.425|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to E:\Code\BT tren lp\DaA2020\pc2Client\bin\logs directory.
+200517 185004.425|INFO|AWT-EventQueue-0|info|
+200517 185004.426|INFO|AWT-EventQueue-0|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Windows 10 10.0 (x86) 
+200517 185004.426|INFO|AWT-EventQueue-0|info|Login: 331 (aka team331)
+200517 185004.426|INFO|AWT-EventQueue-0|startLog|Working directory is E:\Code\BT tren lp\DaA2020\pc2Client\bin
+200517 185004.427|INFO|AWT-EventQueue-0|startLog|Process id is 8528@DESKTOP-V75864E
+200517 185004.427|INFO|AWT-EventQueue-0|info|Contacting server at 203.162.88.119:51002 as TEAM331 @ site 0
+200517 185004.427|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM331 @ site 0
+200517 185004.427|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #2 TEAM331 @ site 0 -> SERVER0 @ site 0
+200517 185004.427|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #2 TEAM331 @ site 0 -> SERVER0 @ site 0
+200517 185004.427|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+200517 185004.428|INFO|Thread-6|run|send(Serializable)
+200517 185004.620|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+200517 185004.621|INFO|Thread-7|info| receiveObject(S) start got Packet[LOGIN_FAILED] #166341 SERVER0 @ site 1 -> TEAM331 @ site 0
+200517 185004.621|INFO|Thread-7|dumpPacket|Packet LOGIN_FAILED (Seq #166341, o#166341 ) recieveObject
+200517 185004.622|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-ACM1 @ 10.99.3.97) (Contest Id: Default-189234830985629705)
+200517 185004.622|INFO|Thread-7|dumpPacket|    To: TEAM331 @ site 0
+200517 185004.622|INFO|Thread-7|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+200517 185004.622|INFO|Thread-7|info|handlePacket start Packet[LOGIN_FAILED] #166341 SERVER0 @ site 1 -> TEAM331 @ site 0
+200517 185004.622|INFO|Thread-7|dumpPacket|Packet LOGIN_FAILED (Seq #166341, o#166341 ) handlePacket
+200517 185004.622|INFO|Thread-7|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (CNTT1-ACM1 @ 10.99.3.97) (Contest Id: Default-189234830985629705)
+200517 185004.622|INFO|Thread-7|dumpPacket|    To: TEAM331 @ site 0
+200517 185004.622|INFO|Thread-7|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+200517 185006.142|INFO|Thread-7|info| receiveObject(S) end   got Packet[LOGIN_FAILED] #166341 SERVER0 @ site 1 -> TEAM331 @ site 0

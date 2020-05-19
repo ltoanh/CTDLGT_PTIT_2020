@@ -13,37 +13,34 @@ const int mod = 1e9 + 7;
 
 using namespace std;
 
-int t, n, a[1007];
-vii vec;
+int t, n, a[1007], b[1007];
 
-int minSwap() {
-   sort(vec.begin(), vec.end());
-   int cnt = 0;
-   for (int i = 0; i < n; ++i) {
-      if (vec[i].second == i) {
-         continue;
-      }
-      cout<<vec[i].F<<" "<<vec[i].S<<endl;
-      swap(vec[i].first,vec[vec[i].second].first);
-      swap(vec[i].second,vec[vec[i].second].second);
-      if (i != vec[i].second) {
-         --i;
-      }
-         ++cnt;
-   }
-   cout<<endl;
-   return cnt;
+int biSearch(int l, int r, int x){
+	if(l<=r){
+		int m=(r+l)/2;
+		if(x==a[m]) return m;
+		if(x<a[m]) return biSearch(l, m-1, x);
+		return biSearch(m+1, r, x);
+	}
 }
 main(){
 	cin>>t;
 	while(t--){
-		vec.clear();
 		cin>>n;
-		for(int i = 0; i < n; ++i){
+		for(int i=1; i<=n; ++i){
 			cin>>a[i];
-			vec.pb({a[i], i});
-		} 
-		cout<<minSwap()<<endl;
+			b[i] = a[i];
+		}
+		sort(a+1, a+n+1);
+		int res=0;
+		for(int i=1; i<=n; ++i){
+			if(a[i]!=b[i]){
+				int vt=biSearch(i, n, b[i]);
+				swap(b[i], b[vt]);
+				res++;
+			}
+		}
+		cout<<res<<endl;
 	}
 }
 
