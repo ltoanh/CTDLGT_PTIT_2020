@@ -1,4 +1,3 @@
-//wr
 #include<bits/stdc++.h>
 
 #define ll long long
@@ -17,65 +16,61 @@ using namespace std;
 int t;
 string s;
 
+stack<char> ope;
+stack<ll> value;
+
 int pri(char x){
 	if(x=='*' || x=='/') return 2;
 	if(x=='+' || x=='-') return 1;
 	return 0;
 }
 
-int calc(int a, int b, char x){
+ll calc(ll a, ll b, char x){
 	if(x=='+') return a+b;
 	if(x=='-') return a-b;
 	if(x=='*') return a*b;
 	if(x=='/') return a/b;
 }
 
-int solve(){
-	stack<char> st;
-	stack<int> value;
+void update(){
+	ll a = value.top(); value.pop();
+	ll b = value.top(); value.pop();
+	char c = ope.top(); ope.pop();
+	value.push(calc(b, a, c));
+}
+ll solve(){
 	for(int i=0; i<s.size(); ++i){
-		if(s[i]=='('){
-			st.push(s[i]);
-		}
+		if(s[i]=='(') ope.push(s[i]);
 		else if(isdigit(s[i])){
-			int num=0;
+			ll num=0;
 			while(i<s.size() && isdigit(s[i])){
 				num=num*10+(s[i]-'0');
 				i++;
 			}
+			if(!isdigit(s[i])) i--;
 			value.push(num);
 		}
 		else if(s[i]==')'){
-			while(!st.empty() && st.top()!='('){
-				int t2=value.top(); value.pop();
-				int t1=value.top(); value.pop();
-				char x = st.top(); st.pop();
-				value.push(calc(t1,t2,x));
-			}
-			if(!st.empty()) st.pop();
+			while(!ope.empty() && ope.top()!='(') 
+				update();
+			if(ope.top()=='(') ope.pop();
 		}
 		else{
-			while(!st.empty() && pri(st.top()) >= pri(s[i])){
-				int t2=value.top(); value.pop();
-				int t1=value.top(); value.pop();
-				char x = st.top(); st.pop();
-				value.push(calc(t1,t2,x));
+			while(!ope.empty() && pri(ope.top())>=pri(s[i])){
+				update();
 			}
-			st.push(s[i]);
+			ope.push(s[i]);
 		}
 	}
-	while(!st.empty()){
-		int t2=value.top(); value.pop();
-		int t1=value.top(); value.pop();
-		char x = st.top(); st.pop();
-		value.push(calc(t1,t2,x));
-	}
+	while(!ope.empty()) update();
 	return value.top();
 }
 main(){
 	cin>>t;
 	while(t--){
 		cin>>s;
+		while(!value.empty()) value.pop();
+		while(!ope.empty()) ope.pop();
 		cout<<solve()<<endl;
 	}
 }

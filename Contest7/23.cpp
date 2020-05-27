@@ -24,13 +24,13 @@ main(){
 		stack<int> value;
 		stack<char> st;
 		for(int i=0; i<s.size(); ++i){
-			if(s[i]>='0' && s[i]<='9'){
+			if(isdigit(s[i])){
 				num=0;
-				while(s[i]>='0' && s[i]<='9'){
+				while(isdigit(s[i])){
 					num=num*10+(s[i]-'0');
 					++i;
 				}		
-				--i;
+				if(!isdigit(s[i])) --i;
 				value.push(num);
 			}
 			else if(s[i]==']'){
@@ -39,11 +39,11 @@ main(){
 					num=value.top();
 					value.pop();
 				}
-				if(!st.empty() && st.top()!='['){
+				while(!st.empty() && st.top()!='['){
 					tmp=st.top()+tmp;
 					st.pop();
 				}
-				if(!st.empty()) st.pop();
+				if(!st.empty() && st.top()=='[') st.pop();
 				string ans="";
 				for(int j=0; j<num; ++j) ans+=tmp;
 				for(int j=0; j<ans.size(); ++j)
@@ -51,13 +51,8 @@ main(){
 			}
 			else if(s[i]=='['){
 				//[a[bc]]
-				if(s[i-1]>='0' && s[i-1]<='9'){
-					st.push(s[i]);
-				}
-				else{
-				    value.push(1);
-				    st.push(s[i]);
-				}
+				if(!isdigit(s[i-1])) value.push(1);
+				st.push('[');
 			}
 			else st.push(s[i]);
 		}

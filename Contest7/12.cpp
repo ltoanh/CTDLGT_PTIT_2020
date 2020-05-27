@@ -32,6 +32,7 @@ main(){
 				string ans="";
 				ans+=s[i];
 				res.push(ans);
+//				res.push(string(1, s[i])); chuyen sang string
 			}
 		}
 		cout<<res.top()<<endl;
