@@ -2,6 +2,7 @@
 
 #define ll long long
 #define ull unsigned long long
+#define ii pair < int, int >
 #define vii vector< ii >
 #define vi vector< int >
 #define pb push_back
@@ -12,38 +13,41 @@ const int mod = 1e9 + 7;
 
 using namespace std;
 
-int t, n, m, a[1007][1007];
+int t, n, m, a[1005][1005];
 
-struct ii{
-	int F;
-	int S;
-};
-struct pii{
-	ii F;
-	int S;
-};
-
+int findMinStep(){
+	bool visit[n+7][m+7] = {0};	
+	queue< ii > q;
+	q.push({1,1});
+	int st=0;
+	while(!q.empty()){
+		int len=q.size();
+		while(len--){
+			ii qty=q.front(); q.pop();
+			int i=qty.F, j=qty.S;
+			if(visit[i][j]) continue;
+			if(i==n && j==m){
+				return st;
+			}
+			visit[i][j] = 1;
+			if(i + a[i][j] <= n)
+				q.push({i + a[i][j], j});
+			if(j + a[i][j] <= m)
+				q.push({i, j + a[i][j]});
+		}
+		st++;
+	}
+	return -1;
+}
 main(){
 	cin>>t;
 	while(t--){
 		cin>>n>>m;
-		for(int i=0; i<n; ++i){
-			for(int j=0; j<m; ++j) cin>>a[i][j];
+		for(int i=1; i<=n; ++i){
+			for(int j=1; j<=m; ++j) cin>>a[i][j];
 		}
-		queue< pii > q;
-		q.push({{1,1}, 0});
-		int Fopt=INT_MAX;
-		while(!q.empty()){
-			pii qty=q.front(); q.pop();
-			if(qty.F.F==n-1 && qty.F.S==m-1){
-				Fopt=qty.S;
-				break;
-			}
-			int i=qty.F.F, j=qty.F.S;
-			if(i+a[i][j] < n) q.push({{i+a[i][j], j}, qty.S+1});
-			if(j+a[i][j] < m) q.push({{i, j +a[i][j]}, qty.S+1});
-		}
-		cout<<Fopt<<endl;
+		
+		cout<<findMinStep()<<endl;
 	}
 }
 
