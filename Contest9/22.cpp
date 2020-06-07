@@ -20,18 +20,19 @@ bool isVisitedAll(bool vis[]){
 	return 1;
 }
 
-void dfs(int u, vi a[],bool vis[], ii pos){
-	stack<int> s;
-	s.push(u); vis[u]=1;
-	while(!s.empty()){
-		int ans=s.top(); s.pop();
+
+void bfs(int u, vi a[], bool vis[], ii pos){
+	queue<int> q;
+	q.push(u);
+	vis[u]=1;
+	while(!q.empty()){
+		int ans=q.front(); q.pop();
 		for(int i=0; i<a[ans].size(); ++i){
-			int t1=a[ans][i];
-			ii c1, c2; c1.F=c2.S=ans, c1.S=c2.F=t1;
-			if(!vis[t1] && c1!=pos && c2!=pos){
-				vis[t1]=1;
-				s.push(ans); s.push(t1);
-				break;
+			int v=a[ans][i];
+			ii c1, c2; c1.F=c2.S=ans, c1.S=c2.F=v;
+			if(!vis[v] && c1!=pos && c2!=pos){
+				vis[v]=1;
+				q.push(v);
 			}
 		}
 	}
@@ -43,7 +44,7 @@ void countEdge(bool vis[], vi a[]){
 			if(i<a[i][j]){
 				for(int i=1; i<=n; ++i) vis[i]=0;
 		 		ii pos; pos.F=i, pos.S=a[i][j];
-				dfs(1, a, vis, pos);
+				bfs(1, a, vis, pos);
 				if(!isVisitedAll(vis)){
 					cout<<i<<" "<<a[i][j]<<" ";
 				}
