@@ -21,7 +21,7 @@ vi a[1007];
 void DFS(int u){
 	vis[u]=1;
 	for(int i=0; i<a[u].size(); ++i){
-		int v=a[u][i];
+		int v=a[u][i]; 
 		if(!vis[v]){
 			if(color[v]==0) color[v] = 3 - color[u];
 			DFS(v);
