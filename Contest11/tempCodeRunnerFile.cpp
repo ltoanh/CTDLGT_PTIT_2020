@@ -1,1 +1,0 @@
-cout<<Preorder[m]<<" ";
