@@ -1,5 +1,3 @@
-//wr
-
 #include <bits/stdc++.h>
 
 #define ll long long
@@ -14,15 +12,14 @@
 using namespace std;
 
 int n, m, u;
-ll d[1007];
-vii a[1007];
+ll d[100007];
+vii a[100007];
 
 void Dijkstra()
 {
 	ll u = 1, res = 0;
     priority_queue< ii, vii, greater<ii> > q;
-    for (int i = 1; i <= n; ++i)
-    {
+    for (int i = 1; i <= n; ++i){
         d[i] = 1e7;
     }
     d[u] = 0;
