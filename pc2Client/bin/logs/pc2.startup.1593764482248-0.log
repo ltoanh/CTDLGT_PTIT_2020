@@ -1,0 +1,11 @@
+200703 152122.297|CONFIG|main|setFileHandlers|Now logging to E:\Code\BT tren lp\DaA2020\pc2Client\bin\logs directory.
+200703 152122.298|INFO|main|info|
+200703 152122.299|INFO|main|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Windows 10 10.0 (x86) 
+200703 152122.299|INFO|main|startLog|Working directory is E:\Code\BT tren lp\DaA2020\pc2Client\bin
+200703 152122.309|INFO|main|startLog|Process id is 3428@DESKTOP-V75864E
+200703 152122.309|INFO|main|start|Starting ConnectionManager...
+200703 152122.519|INFO|main|start|Started ConnectionManager
+200703 152122.520|INFO|main|setClientServerAndPort|INIFile File location: file:/E:/Code/BT%20tren%20lp/DaA2020/pc2Client/bin/pc2v9.ini
+200703 152122.522|INFO|main|setClientServerAndPort|setClientServerAndPort 203.162.88.119 parsed as 203.162.88.119 port 51002
+200703 152122.522|INFO|main|info|Contacting server at 203.162.88.119:51002
+200703 152122.522|INFO|main|connectToMyServer|Connecting to 203.162.88.119:51002

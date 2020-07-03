@@ -1,3 +1,5 @@
+//RE
+
 #include<bits/stdc++.h>
 
 #define ll long long
@@ -24,48 +26,43 @@ struct node{
 };
 
 int n;
-vi inOr, levelOr;
+int inOr[1007], levelOr[1007], a[1007];
 
-//xay dung cay nhi phan 
-node *constructTree(vi levelorder, int l, int r, int len){
-    if(len<=0) return NULL;
-    if(l>r) return NULL;
-    node *root = new node(levelorder[0]);
-    int m = find(inOr.begin()+l, inOr.begin()+r, levelorder[0]) - inOr.begin();
-    unordered_set<int> s;
-    for(int i=l; i<m; ++i) s.insert(inOr[i]);
-    vi lLevel, rLevel;
-    for(int i=1; i<n; ++i){
-        if(s.find(levelorder[i])!=s.end()) lLevel.pb(levelorder[i]);
-        else rLevel.pb(levelorder[i]);
-    }
-    root->left=constructTree(lLevel, l, m-1, m-l);
-    root->right=constructTree(rLevel, m+1, r, r-m);
-    return root;
-}
-//in cay Postorder
-void printPostorder(node *t){
-    if(t){
-        printPostorder(t->left);
-        printPostorder(t->right);
-        cout<<t->val<<" ";  
+void postOrder(int l, int r)
+{
+    if (l > r) {
+        return;
+    } else if (l == r) {
+        cout<<inOr[l]<<" ";
+    } else {
+        int x;
+        for (int i=1; i<=n; ++i)
+        {
+            if (a[levelOr[i]] >= l && a[levelOr[i]] <= r) {
+                x = i;
+                break;
+            }
+        }
+        x = a[levelOr[x]];
+        postOrder(l, x-1);
+        postOrder(x+1, r);
+        cout<<inOr[x]<<" ";
     }
 }
+
 
 main(){
     int t; cin>>t;
     while(t--){
-        inOr.clear(); levelOr.clear();
-        int x;
         cin>>n;
-        for(int i=0; i<n; ++i){
-            cin>>x; inOr.pb(x);
+        for(int i=1; i<=n; ++i){
+            cin>>inOr[i];
         }
-        for(int i=0; i<n; ++i){
-            cin>>x; levelOr.pb(x);
+        for(int i=1; i<=n; ++i){
+            cin>>levelOr[i];
+            a[levelOr[i]] = levelOr[i];
         }
-        node *res = constructTree(levelOr, 0, n-1, n);
-        printPostorder(res);
+        postOrder(INT_MIN, INT_MAX);
         cout<<endl;
     }
 }
