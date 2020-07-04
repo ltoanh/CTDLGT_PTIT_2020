@@ -17,19 +17,34 @@ using namespace std;
 struct node{
     int val;
     node *left, *right;
-    node(int val){
-        this->val = val;
+    node(int data){
+        this->val = data;
         left = right = NULL;
     }
 };
 
-int n;
-node *root;
+int n, res;
 map<int, node *> m;
 
-void init(){
+bool isLeaf(node *t){
+	if(!t) return 0;
+    if(t->left==NULL && t->right==NULL) return 1;
+    return 0;
+}
+
+void sumAllLeftNodes(node *t){
+	if (t != NULL) {
+		if (isLeaf(t->left)) {
+			res+=t->left->val;
+		}
+		sumAllLeftNodes(t->left);	
+		sumAllLeftNodes(t->right);
+	}
+}
+void solve(){
+    res = 0;
     m.clear();
-    root = NULL;
+    node *root = NULL;
     while(n--){
         node *parent, *child;
         int u, v;
@@ -47,28 +62,14 @@ void init(){
         if(dir == 'L') parent->left = child;
         else parent->right = child;
     }
-}
-
-bool isLeaf(node *t){
-    if(t->left==NULL && t->right==NULL) return 1;
-    return 0;
-}
-int sumAllLeftNodes(node *t){
-    if(t==NULL) return 0;
-    if(t->left && isLeaf(t->left)) 
-		return t->left->val + sumAllLeftNodes(t->right);
-    return sumAllLeftNodes(t->left) + sumAllLeftNodes(t->right);
-}
-
-int solve(){
-    init();
-    return sumAllLeftNodes(root); 
+    sumAllLeftNodes(root);
+    cout<<res<<endl;
 }
 
 main(){
     int t; cin>>t;
     while(t--){
         cin>>n;
-        cout<<solve()<<endl;
+        solve();
     }
 }
