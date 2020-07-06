@@ -1,10 +1,10 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 #define ll long long
 #define ull unsigned long long
 #define all(x) (x).begin(), (x).end()
-#define ii pair < int, int >
-#define vii vector< ii >
-#define vi vector< int >
+#define ii pair<int, int>
+#define vii vector<ii>
+#define vi vector<int>
 #define pb push_back
 #define F first
 #define S second
@@ -14,62 +14,73 @@ const int mod = 1e9 + 7;
 
 using namespace std;
 
-struct node{
+struct node
+{
     int val;
     node *left, *right;
-    node(int data){
+    node(int data)
+    {
         this->val = data;
         left = right = NULL;
     }
 };
 
-int n, res;
-map<int, node *> m;
+int n;
 
-bool isLeaf(node *t){
-	if(!t) return 0;
-    if(t->left==NULL && t->right==NULL) return 1;
+bool isLeaf(node *t)
+{
+    if (!t)
+        return 0;
+    if (t->left == NULL && t->right == NULL)
+        return 1;
     return 0;
 }
 
-void sumAllLeftNodes(node *t){
-	if (t != NULL) {
-		if (isLeaf(t->left)) {
-			res+=t->left->val;
-		}
-		sumAllLeftNodes(t->left);	
-		sumAllLeftNodes(t->right);
-	}
+int sumAllLeftNodes(node *t)
+{
+    if (t == NULL)
+        return 0;
+    if (t->left && isLeaf(t->left))
+        return t->left->val + sumAllLeftNodes(t->right);
+    return sumAllLeftNodes(t->left) + sumAllLeftNodes(t->right);
 }
-void solve(){
-    res = 0;
-    m.clear();
+void solve()
+{
+    map<int, node *> m;
     node *root = NULL;
-    while(n--){
-        node *parent, *child;
-        int u, v;
-        char dir;
-        cin>>u>>v>>dir;
-        if(m.find(u) == m.end()){
-            parent = new node(u);
-            if(root == NULL) root = parent;
+    node *child;
+    int n1, n2;
+    char lr;
+    while (n--)
+    {
+        node *parent;
+        cin >> n1 >> n2 >> lr;
+        if (m.find(n1) == m.end())
+        {
+            parent = new node(n1);
+            m[n1] = parent;
+            if (root == NULL)
+                root = parent;
         }
-        else{
-            parent = m[u];
-        }
-        child = new node(v);
-		m[v] = child; m[u] = parent;
-        if(dir == 'L') parent->left = child;
-        else parent->right = child;
+        else
+            parent = m[n1];
+        child = new node(n2);
+        if (lr == 'L')
+            parent->left = child;
+        else
+            parent->right = child;
+        m[n2] = child;
     }
-    sumAllLeftNodes(root);
-    cout<<res<<endl;
+    cout << sumAllLeftNodes(root) << endl;
 }
 
-main(){
-    int t; cin>>t;
-    while(t--){
-        cin>>n;
+main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        cin >> n;
         solve();
     }
 }

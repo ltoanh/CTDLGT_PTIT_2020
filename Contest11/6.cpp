@@ -1,5 +1,3 @@
-//RE
-
 #include<bits/stdc++.h>
 
 #define ll long long
@@ -15,15 +13,6 @@ const int MAX = 1e5 + 7;
 const int mod = 1e9 + 7;
 
 using namespace std;
-
-struct node{
-    int val;
-    node *left, *right;
-    node(int data){
-        this->val = data;
-        left = right = NULL;
-    }
-};
 
 int n;
 int inOr[1007], levelOr[1007], a[1007];
@@ -54,15 +43,16 @@ void postOrder(int l, int r)
 main(){
     int t; cin>>t;
     while(t--){
+        memset(a, 0, sizeof(a));
         cin>>n;
         for(int i=1; i<=n; ++i){
             cin>>inOr[i];
+            a[inOr[i]] = i;
         }
         for(int i=1; i<=n; ++i){
             cin>>levelOr[i];
-            a[levelOr[i]] = levelOr[i];
         }
-        postOrder(INT_MIN, INT_MAX);
+        postOrder(1, n);
         cout<<endl;
     }
 }
