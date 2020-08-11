@@ -17,7 +17,7 @@ int t, n, k, s;
 int a[30];
 
 int solve(){
-	int f[30];
+	int f[2007];
 	memset(f, 0, sizeof(f));
 	f[0]=1;
 	if(s%k) return 0;

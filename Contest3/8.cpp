@@ -25,13 +25,13 @@ main(){
         }
         sort(pos.begin(), pos.end(), cmp);
         int ans=pos[0].second;
-        res.push_back(1);
+        int dem = 1;
         for(int i=1; i<n; ++i){
             if(pos[i].first>=ans){
                 ans=pos[i].second;
-                res.push_back(i+1);
+                dem++;
             }
         }
-        cout<<res.size()<<endl;
+        cout<<dem<<endl;
     }
 }

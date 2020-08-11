@@ -30,7 +30,7 @@ main(){
 		for(int i=0; i<a.size(); ++i){
 			res=(res%mod+((i%mod)*(a[i]%mod))%mod)%mod;
 		}
-		cout<<res%mod<<endl;
+		cout<<res<<endl;
 	}
 }
 

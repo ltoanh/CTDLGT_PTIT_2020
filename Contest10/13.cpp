@@ -5,6 +5,7 @@ using namespace std;
 int t, n, m;
 int d[1007], G[1007][1007];
 
+//bellman-ford
 int solve(){
     d[1]=0;
     for(int k=2; k<=n; ++k)

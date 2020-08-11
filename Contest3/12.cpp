@@ -24,7 +24,7 @@ main(){
 	    for(int i=0; i<s.size(); ++i){
 	        Fopt=max(Fopt, ++fre[s[i]]);
 	    }
-		if(Fopt-1<=s.size()-Fopt) cout<<1; 
+		if(2*Fopt-1<=s.size()) cout<<1; 
 		else cout<<-1;
 		cout<<endl;
 	}

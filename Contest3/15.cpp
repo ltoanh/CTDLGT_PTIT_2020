@@ -14,7 +14,7 @@ using namespace std;
 int t, n, s, m;
 
 int solve(){
-	if(n<m || (n==m && s>=7) || 6*n<7*m) return -1;
+	if(n<m || (n==m && s>=7) || 6*n < 7*m) return -1;
 	int ans=s*(int)m/n+((s*m)%n?1:0);
 	return ans;
 }

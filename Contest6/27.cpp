@@ -30,8 +30,8 @@ void selectionSort(){
 		}
 		if(i != ans){
 			swap(a[i], a[ans]);
+			step++; print();
 		}
-		step++; print();
 	}
 }
 

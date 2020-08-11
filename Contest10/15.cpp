@@ -20,6 +20,7 @@ void solve()
                     d[j] = tmp;
                 }
             }
+    //Ktra chu trinh am
     for (int i = 1; i <= n; ++i)
         for (int j = 1; j <= n; ++j)
         {

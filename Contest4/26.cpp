@@ -14,8 +14,8 @@ using namespace std;
 
 string a, b;
 int k;
-string res="";
 
+// 10 1 10
 void findSum(){
 	int n1=a.size(), n2=b.size();
 	if(n1<n2){
@@ -24,6 +24,7 @@ void findSum(){
 	}
 	reverse(a.begin(), a.end());
 	reverse(b.begin(), b.end());
+	string res="";
 	int d=0;
 	for(int i=0; i<n2; ++i){
 		int ans=(a[i]-'0')+(b[i]-'0')+d;
@@ -37,10 +38,13 @@ void findSum(){
 	}
 	if(d>0) res+=d+'0';
 	reverse(res.begin(), res.end());
-	cout<<res;
+	cout<<res<<endl;
 }
 main(){
-	cin>>k>>a>>b;
-	findSum();
+	int t = 1;
+	while(t--){
+		cin>>k>>a>>b;
+		findSum();	
+	}
 }
 
